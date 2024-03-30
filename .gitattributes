@@ -1,0 +1,2 @@
+ffmpeg-git-amd64-static.tar.gz filter=lfs diff=lfs merge=lfs -text
+stt-base.tar.gz filter=lfs diff=lfs merge=lfs -text
