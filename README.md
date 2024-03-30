@@ -115,8 +115,11 @@ Api 请求示例
     print(response.json())
 ```
 ```shell
-
-
+curl --location --request POST 'http://127.0.0.1:9977/api' \
+--form 'file=@"/tmp/test.mp3"' \
+--form 'language="zh"' \
+--form 'mode="base"' \
+--form 'response_format="json"'
 ```
 
 
